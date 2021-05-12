@@ -1,0 +1,30 @@
+body {
+  background: lightseagreen;
+}
+
+.cell {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.wall {
+  background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Blocks/block_06.png');
+}
+
+.floor {
+  background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Ground/ground_01.png');
+}
+
+.player {
+  background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Player/player_01.png'),
+    url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Ground/ground_01.png');
+}
+
+.target {
+  background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Ground/ground_04.png');
+}
+
+.box {
+  background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Crates/crate_43.png');
+}
