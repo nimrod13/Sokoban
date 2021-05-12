@@ -21,6 +21,11 @@ body {
     url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Ground/ground_01.png');
 }
 
+.target.player {
+  background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Player/player_01.png'),
+    url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Ground/ground_04.png');
+}
+
 .target {
   background-image: url('https://cddataexchange.blob.core.windows.net/data-exchange/sokoban/Ground/ground_04.png');
 }
